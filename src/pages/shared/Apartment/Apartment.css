@@ -1,0 +1,3 @@
+.apartment:hover .apartment-image {
+  transform: scale(1.7);
+}

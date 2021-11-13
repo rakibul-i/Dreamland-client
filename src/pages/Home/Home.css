@@ -1,0 +1,11 @@
+/* home page banner image */
+.banner {
+  background: linear-gradient(
+      145deg,
+      rgba(128, 128, 128, 0.651),
+      rgba(128, 128, 128, 0.589)
+    ),
+    url("https://cdn.wallpapersafari.com/75/22/ilQoka.jpg") no-repeat center
+      center / cover;
+  height: 700px;
+}

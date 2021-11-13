@@ -1,0 +1,9 @@
+.authentication-bg {
+  background: linear-gradient(
+      145deg,
+      rgba(128, 128, 128, 0.425),
+      rgba(128, 128, 128, 0.425)
+    ),
+    url("https://i.pinimg.com/originals/28/01/51/2801519162973b969d082c7a4411ef89.png")
+      no-repeat center center / cover;
+}
