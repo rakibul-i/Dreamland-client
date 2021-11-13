@@ -15,8 +15,6 @@ This is a full stack project. Users and admin are separated by role.
 
 ## Technologies
 
-###### frontend: npx create-react-app, react-router-dom, tailwind css, context-api, firebase-authentication , axios, react-slick-carousel , sweetaleart and so on.
+###### npx create-react-app, react-router-dom, tailwind css, context-api, firebase-authentication , axios, react-slick-carousel , sweetaleart and so on.
 
-###### backend: Express, Node js.
-
-###### database: mongoDB
+## Live site: https://dreamland-book-apartment.web.app/
