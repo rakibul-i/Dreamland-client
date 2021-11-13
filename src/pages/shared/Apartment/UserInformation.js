@@ -50,7 +50,7 @@ const UserInformation = (props) => {
       status: "pending",
       bill: "unpaid",
     };
-    fetch(`http://localhost:7070/orders`, {
+    fetch(`https://dry-gorge-66689.herokuapp.com/orders`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(appointmentDetails),

@@ -17,7 +17,9 @@ const Table = (props) => {
       confirmButtonText: "Yes, delete it!",
     }).then((result) => {
       if (result.isonfirmed) {
-        fetch(`http://localhost:7070/orders/${id}`, { method: "DELETE" })
+        fetch(`https://dry-gorge-66689.herokuapp.com/orders/${id}`, {
+          method: "DELETE",
+        })
           .then((response) => response.json())
           .then((data) => {
             if (data.deletedCount) {
@@ -32,7 +34,7 @@ const Table = (props) => {
   const handleOrderStatus = (e) => {
     const updatedStatus = e.target.value;
 
-    fetch(`http://localhost:7070/orders/${_id}`, {
+    fetch(`https://dry-gorge-66689.herokuapp.com/orders/${_id}`, {
       method: "PUT",
       headers: { "Content-type": "application/json" },
       body: JSON.stringify({ updatedStatus }),

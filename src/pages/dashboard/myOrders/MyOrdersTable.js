@@ -18,7 +18,9 @@ const MyOrdersTable = (props) => {
     }).then((result) => {
       /* Read more about isConfirmed, isDenied below */
       if (result.isConfirmed) {
-        fetch(`http://localhost:7070/orders/${id}`, { method: "DELETE" })
+        fetch(`https://dry-gorge-66689.herokuapp.com/orders/${id}`, {
+          method: "DELETE",
+        })
           .then((response) => response.json())
           .then((data) => {
             if (data.deletedCount) {

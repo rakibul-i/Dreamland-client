@@ -38,7 +38,7 @@ const Review = () => {
       message: data.message,
     };
     axios
-      .post("http://localhost:7070/review", reviewInfo)
+      .post("https://dry-gorge-66689.herokuapp.com/review", reviewInfo)
       .then(function (response) {
         if (response.data.insertedId) {
           Swal.fire("Added!", "review has been added.", "success");

@@ -10,7 +10,7 @@ const MakeAdmin = () => {
 
   const makeAdminHandler = (e) => {
     const user = { email };
-    fetch(`http://localhost:7070/users/admin`, {
+    fetch(`https://dry-gorge-66689.herokuapp.com/users/admin`, {
       method: "PUT",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(user),

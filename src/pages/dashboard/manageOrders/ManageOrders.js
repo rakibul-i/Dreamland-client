@@ -7,7 +7,7 @@ const ManageOrders = () => {
   const [orders, setOrders] = useState([]);
 
   useEffect(() => {
-    fetch(`http://localhost:7070/orders`)
+    fetch(`https://dry-gorge-66689.herokuapp.com/orders`)
       .then((response) => response.json())
       .then((data) => setOrders(data));
   }, [orders]);

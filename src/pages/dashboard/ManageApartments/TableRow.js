@@ -19,7 +19,7 @@ const TableRow = (props) => {
     }).then((result) => {
       /* Read more about isConfirmed, isDenied below */
       if (result.isConfirmed) {
-        fetch(`http://localhost:7070/apartments/${id}`, {
+        fetch(`https://dry-gorge-66689.herokuapp.com/apartments/${id}`, {
           method: "DELETE",
         })
           .then((response) => response.json())

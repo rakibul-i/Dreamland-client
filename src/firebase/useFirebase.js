@@ -100,7 +100,7 @@ const useFirebase = () => {
 
   // find admin
   useEffect(() => {
-    fetch(`http://localhost:7070/users/${user?.email}`)
+    fetch(`https://dry-gorge-66689.herokuapp.com/users/${user?.email}`)
       .then((response) => response.json())
       .then((data) => setIsAdmin(data.admin));
   }, [user?.email]);
@@ -143,7 +143,7 @@ const useFirebase = () => {
   const saveUser = (email, displayName, method) => {
     const user = { email, displayName };
 
-    fetch("http://localhost:7070/users", {
+    fetch("https://dry-gorge-66689.herokuapp.com/users", {
       method: method,
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(user),

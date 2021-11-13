@@ -21,7 +21,10 @@ const AddApartment = () => {
       stock: data.stock,
     };
     axios
-      .post("http://localhost:7070/apartments", apartmentDetails)
+      .post(
+        "https://dry-gorge-66689.herokuapp.com/apartments",
+        apartmentDetails
+      )
       .then(function (response) {
         if (response.data.insertedId) {
           Swal.fire("Added!", "apartment has been added.", "success");

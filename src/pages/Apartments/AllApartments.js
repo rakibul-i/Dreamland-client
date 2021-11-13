@@ -15,7 +15,9 @@ const AllApartments = () => {
   const size = 12;
 
   useEffect(() => {
-    fetch(`http://localhost:7070/apartments?page=${page}&size=${size}`)
+    fetch(
+      `https://dry-gorge-66689.herokuapp.com/apartments?page=${page}&size=${size}`
+    )
       .then((response) => response.json())
       .then((data) => {
         setApartments(data.apartments);

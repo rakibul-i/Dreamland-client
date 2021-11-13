@@ -10,7 +10,7 @@ const ApartmentDetails = () => {
   const { id } = useParams();
 
   useEffect(() => {
-    fetch(`http://localhost:7070/apartments/${id}`)
+    fetch(`https://dry-gorge-66689.herokuapp.com/apartments/${id}`)
       .then((response) => response.json())
       .then((data) => {
         setApartment(data);
