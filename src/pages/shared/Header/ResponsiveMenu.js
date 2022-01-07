@@ -9,7 +9,7 @@ const ResponsiveMenu = () => {
     color: "tomato",
   };
   return (
-    <div className="flex items-center">
+    <div className="flex items-center relative">
       <NavLink
         activeStyle={activeStyle}
         className="tracking-widest uppercase hover:text-red-500 transition-all duration-300 px-5"

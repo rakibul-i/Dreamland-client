@@ -24,7 +24,7 @@ const Apartments = () => {
   }, [page]);
   return (
     <div className="bg-gray-200 py-10">
-      <div className="md:w-9/12 w-11/12 mx-auto lg:p-10 p-4 bg-white">
+      <div className="md:w-9/12 w-11/12 mx-auto lg:p-10 md:p-4 p-1 bg-white">
         <h1 className="md:text-4xl font-semibold text-center py-5 font-serif text-gray-400">
           Buy Your Dream Apartment
         </h1>

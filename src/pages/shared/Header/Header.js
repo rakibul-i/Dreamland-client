@@ -15,7 +15,7 @@ const Header = () => {
   return (
     <>
       <div id="header" className="header bg-white text-black">
-        <div className="xl:w-9/12 w-11/12 mx-auto flex justify-between items-center py-2">
+        <div className="xl:w-9/12 w-11/12 mx-auto flex justify-between items-center py-2 ">
           <div className="logo">
             <Link
               to="/"

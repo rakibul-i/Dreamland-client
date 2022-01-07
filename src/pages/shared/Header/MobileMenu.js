@@ -1,5 +1,4 @@
 import React from "react";
-import { CgProfile } from "react-icons/cg";
 import { NavLink } from "react-router-dom";
 import useAuth from "../../../context/useAuth";
 
@@ -9,7 +8,7 @@ const MobileMenu = () => {
     color: "tomato",
   };
   return (
-    <div className="pb-6">
+    <div className="pb-6 transition-height duration-500 ease-in-out">
       <NavLink
         activeStyle={activeStyle}
         className="tracking-widest uppercase hover:text-red-500 transition-all duration-300 py-3 block"

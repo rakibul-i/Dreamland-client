@@ -12,7 +12,7 @@ const Apartment = (props) => {
     history.push(`/apartments/${_id}`);
   };
   return (
-    <div className="apartment py-10 md:px-5  px-2  m-3 flex justify-center overflow-hidden">
+    <div className="apartment py-10 md:px-5  px-2  md:m-3 my-3 mx-1 flex justify-center overflow-hidden">
       <div className="overflow-hidden">
         <div className="overflow-hidden">
           <img

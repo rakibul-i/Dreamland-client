@@ -31,7 +31,7 @@ const AllApartments = () => {
     <div>
       <Header />
       <div className="bg-gray-200 py-10">
-        <div className="md:w-9/12 w-11/12 mx-auto lg:p-10 p-4 bg-white">
+        <div className="md:w-9/12 w-11/12 mx-auto lg:p-10 p-1 md:p-4 bg-white">
           <Link className="px-4 font-serif underline text-blue-500" to="/">
             Back to Homepage{" "}
           </Link>
